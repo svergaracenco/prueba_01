@@ -1,0 +1,105 @@
+body {font-family: 'Lato', sans-serif; font-weight: 400;background-image: url(../img/bg2.png); background-repeat: repeat;}
+h2 {font-family: 'Lato', sans-serif; font-weight: 300;}
+.texto-banner {font-weight: 700; color: white; text-align: center; font-size: 60px;text-shadow: 0 2px 5px rgba(0, 0, 0, .5);}
+.navbar-header {height: 110px;}
+.navbar-nav { padding-top: 30px;}
+.navbar-toggle {margin-top: 30px!important;}
+.navbar-nav li a {padding-top: 15px!important; padding-bottom: 20px!important;}
+.navbar {
+    position: fixed!important;
+    width: 100%;
+    z-index: 9999999;
+}
+.banner {
+	width: 100%; 
+	height: 450px;
+	background-image: url(../img/banner.jpg); 
+	background-size: cover; 
+	margin-bottom: 30px;
+	padding: 15%;
+	margin-top: 150px;
+	box-sizing: border-box;
+	background-position: center;
+}
+	.icons {
+		color: gainsboro;
+		font-size: 36px;
+		text-align: center;
+		margin: 10px 10px;
+	}
+	.logo {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+footer {
+	margin-top: 50px;
+	background-color: #f8f8f8;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+/*LINE TITLE  */
+.line-title {
+margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'azo_b', sans-serif;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.line-title:before,
+.line-title:after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    background: #4f82cf;
+    width: 15%;
+    position: relative;
+    vertical-align: middle;
+	margin-right: 1.5%;
+}
+
+.line-title:before {
+    left: -0.5em;
+    margin-left: -48%;
+}
+
+.line-title:after {
+    right: -0.5em;
+    margin-right: -48%;
+}
+
+
+
+
+
+@media (max-width: 750px) {
+    .line-title {
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+}
+
+	
+	.border-blue {
+		border-top: 5px solid #4f82cf;
+	}
+
+.form-control {
+	margin-top: 7px;
+}
+
+.btn-default {
+	margin: 10px 0;
+}
+	
